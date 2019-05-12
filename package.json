@@ -1,6 +1,6 @@
 {
   "name": "@arunkumarcoderelm/generator-coderelm-express-mvc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express MVC structure from Coderelm.",
   "homepage": "https://github.com/Arunkumarcs/generator-coderelm-express-mvc",
   "author": {
