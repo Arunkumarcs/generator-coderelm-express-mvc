@@ -1,0 +1,21 @@
+{
+    // app
+    "app": {
+        "secret": "<%= appSecret %>"
+    },
+
+    // Port
+    "PORT": 3000,
+    // Debug
+    "Debug": true,
+    // https://expressjs.com/en/resources/middleware/session.html
+    "Session": { 
+        "secret": "<%= storageSecret %>", 
+        "resave": false, 
+        "saveUninitialized": true 
+    },
+    // https://www.npmjs.com/package/session-file-store
+    "SessionStorage": {
+        "secret": "<%= sessionStorageSecret %>"
+    }
+}
