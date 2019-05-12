@@ -7,7 +7,7 @@ First, install [Yeoman](http://yeoman.io) and generator-coderelm-express-mvc usi
 
 ```bash
 npm install -g yo
-npm install -g generator-coderelm-express-mvc
+npm install -g @arunkumarcoderelm/generator-coderelm-express-mvc
 ```
 
 Then generate your new project:
