@@ -10,7 +10,7 @@
             "min": 0,
             "idle": 10000
         },
-        "logging": true
+        "logging": false
     },
     "test": {
         "username": "root",
@@ -23,7 +23,7 @@
             "min": 0,
             "idle": 10000
         },
-        "logging": false
+        "logging": true
     },
     "production": {
         "username": "root",
