@@ -1,8 +1,15 @@
 module.exports = async generator => {
-  // generator.yarnInstall();
-  generator.installDependencies({
-    yarn: true,
-    npm: false,
-    bower: false
-  });
+  switch (generator.props.packageManager) {
+    case "yarn":
+      generator.yarnInstall(); 
+      break;
+    default:
+      generator.npmInstall()
+      break;
+  }
+  // generator.installDependencies({
+  //   yarn: true,
+  //   npm: false,
+  //   bower: false
+  // });
 };

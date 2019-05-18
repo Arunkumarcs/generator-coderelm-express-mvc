@@ -39,6 +39,16 @@ module.exports = async generator => {
       name: "license",
       message: "Provide Application License:",
       default: "MIT"
+    },
+    {
+      type: "list",
+      name: "packageManager",
+      message: "Chose your package manager:",
+      choices: [
+        "npm",
+        "yarn"
+      ],
+      default: "npm"
     }
   ];
 
@@ -53,3 +63,4 @@ module.exports = async generator => {
   props = await generator.prompt(interact);
   return props;
 };
+  

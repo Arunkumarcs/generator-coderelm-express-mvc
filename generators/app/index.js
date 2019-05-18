@@ -50,5 +50,7 @@ module.exports = class extends Generator {
   /**
    * 8. end - Called last, cleanup, say good bye, etc
    */
-  // end() { }
+  async end() {
+    await require("../end")(this);
+  }
 };
