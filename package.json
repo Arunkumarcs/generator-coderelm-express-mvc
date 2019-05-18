@@ -1,7 +1,7 @@
 {
   "name": "@arunkumarcoderelm/generator-coderelm-express-mvc",
-  "version": "1.2.0",
-  "description": "Express MVC structure from Coderelm.",
+  "version": "1.2.1",
+  "description": "Express MVC structure integrated with Sequalize ORM and Nunjucks template engine from Coderelm.",
   "homepage": "https://github.com/Arunkumarcs/generator-coderelm-express-mvc",
   "author": {
     "name": "Arunkumar",

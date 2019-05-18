@@ -1,5 +1,5 @@
 # generator-coderelm-express-mvc [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Express MVC structure from Coderelm.
+> Express MVC structure integrated with Sequalize ORM and Nunjucks template engine from Coderelm.
 
 ## Installation
 
