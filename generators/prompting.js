@@ -51,7 +51,7 @@ module.exports = async generator => {
       default: "npm"
     }
   ];
-
+  
   // Have Yeoman greet the user.
   generator.log(
     yosay(

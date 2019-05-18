@@ -13,11 +13,12 @@
   ],
   "main": "generators/index.js",
   "keywords": [
-    "Express MVC",
-    "Generator",
+    "express MVC",
+    "generator",
     "yeoman-generator",
-    "Nunjucks",
-    "Sequelize"
+    "nunjucks",
+    "sequelize",
+    "express scaffold"
   ],
   "devDependencies": {
     "yeoman-test": "^1.7.0",
