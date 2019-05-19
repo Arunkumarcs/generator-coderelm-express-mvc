@@ -13,7 +13,7 @@ npm install -g @arunkumarcoderelm/generator-coderelm-express-mvc
 Then generate your new project:
 
 ```bash
-yo coderelm-express-mvc
+yo @arunkumarcoderelm/coderelm-express-mvc
 ```
 
 ## Getting To Know Yeoman
