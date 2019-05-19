@@ -1,5 +1,5 @@
 # generator-coderelm-express-mvc [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Superchaged Express Generator with Express MVC structure integrated with Sequalize ORM and Nunjucks template engine from Coderelm.Jest and Puppeteer test framework integrated.
+> Supercharged Express Generator with Express MVC structure integrated with Sequalize ORM and Nunjucks template engine from Coderelm.Jest and Puppeteer test framework integrated.
 
 ## Installation
 
