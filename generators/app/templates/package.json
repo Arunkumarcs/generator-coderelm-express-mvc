@@ -14,7 +14,7 @@
     "restart-pm2": "pm2 restart <%= projectName %>",
     "stop-pm2": "pm2 stop <%= projectName %>",
     "test": "./node_modules/.bin/jest",
-    "assets-build": "cd resources/Assets && yarn build"
+    "assets-es6": "cd src/es6 && yarn build"
   },
   "dependencies": {
     "@arunkumarcoderelm/use": "^1.0.1",
@@ -49,15 +49,19 @@
     "es6"
   ],
   "autoload": {
-    "Routes": "app/Routes/",
+    "Controller": "app/Controller/",
+    "Core": "app/Core/",
+    "Event": "app/Event/",
     "Library": "app/Library/",
-    "Public": "public/",
-    "Plugins": "plugins/",
-    "Resources": "resources/",
+    "Middelware": "app/Middelware/",
+    "Model": "app/Model/",
+    "Plugins": "app/plugins/",
+    "Routes": "app/Routes/",
+    "Socket": "app/Socket/",
     "App": "app/",
-    "Core": "core/",
-    "Db": "db/",
-    "Model": "app/Model/"
+    "Public": "public/",
+    "Resources": "resources/",
+    "Db": "db/"
   },
   "devDependencies": {
     "express-debug": "^1.1.1",
