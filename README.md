@@ -1,5 +1,7 @@
-# generator-coderelm-express-mvc [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Supercharged Express Generator with Express MVC structure integrated with Sequalize ORM and Nunjucks template engine from Coderelm.Jest and Puppeteer test framework integrated.
+# generator-coderelm-express-mvc 
+> This generator creates copy of [Express MVC](https://github.com/Arunkumarcs/coderelm-express-mvc) setup from Coderelm team.
+
+> Supercharged Express Generator with [Express MVC](https://github.com/Arunkumarcs/coderelm-express-mvc) structure integrated with [Sequalize ORM](http://docs.sequelizejs.com/) and [Nunjucks template engine](https://mozilla.github.io/nunjucks/) along with [Jest](https://jestjs.io/) and [Puppeteer](https://github.com/GoogleChrome/puppeteer) test framework integrated from Coderelm Team.
 
 ## Installation
 
@@ -16,21 +18,6 @@ Then generate your new project:
 yo @arunkumarcoderelm/coderelm-express-mvc
 ```
 
-## Getting To Know Yeoman
-
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
-
 ## License
 
-MIT © [Arunkumar](https://github.com/Arunkumarcs/generator-coderelm-express-mvc)
-
-
-[npm-image]: https://badge.fury.io/js/generator-coderelm-express-mvc.svg
-[npm-url]: https://npmjs.org/package/generator-coderelm-express-mvc
-[travis-image]: https://travis-ci.org/arunkumarcs/generator-coderelm-express-mvc.svg?branch=master
-[travis-url]: https://travis-ci.org/arunkumarcs/generator-coderelm-express-mvc
-[daviddm-image]: https://david-dm.org/arunkumarcs/generator-coderelm-express-mvc.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/arunkumarcs/generator-coderelm-express-mvc
+MIT
