@@ -1,5 +1,5 @@
-const _ = use("lodash");
-const faker = use("faker");
+const _ = require("lodash");
+const faker = require("faker");
 
 class Writeing {
 

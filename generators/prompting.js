@@ -1,5 +1,5 @@
-const yosay = use("yosay");
-const chalk = use("chalk");
+const yosay = require("yosay");
+const chalk = require("chalk");
 
 module.exports = async generator => {
   let props = {};

@@ -1,4 +1,4 @@
-const chalk = use("chalk");
+const chalk = require("chalk");
 
 module.exports = async generator => {
   generator.log(
