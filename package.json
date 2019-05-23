@@ -1,6 +1,6 @@
 {
   "name": "@arunkumarcoderelm/generator-coderelm-express-mvc",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "This generator creates copy of Express MVC setup from Coderelm team. Supercharged Express Generator with Express MVC structure integrated with Sequalize ORM and Nunjucks template engine from Coderelm.Jest and Puppeteer test framework integrated.",
   "homepage": "https://github.com/Arunkumarcs/generator-coderelm-express-mvc",
   "author": {
@@ -26,60 +26,29 @@
     "scaffolding"
   ],
   "devDependencies": {
-    "yeoman-test": "^1.7.0",
-    "yeoman-assert": "^3.1.0",
     "eslint": "^5.9.0",
-    "prettier": "^1.15.2",
-    "husky": "^1.2.0",
-    "lint-staged": "^8.1.0",
     "eslint-config-prettier": "^3.3.0",
-    "eslint-plugin-prettier": "^3.0.0",
     "eslint-config-xo": "^0.25.0",
-    "jest": "^23.5.0"
+    "eslint-plugin-prettier": "^3.0.0",
+    "husky": "^1.2.0",
+    "jest": "^23.5.0",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.2",
+    "yeoman-assert": "^3.1.0",
+    "yeoman-test": "^1.7.0"
   },
   "engines": {
     "npm": ">= 4.0.0"
   },
   "dependencies": {
+    "@arunkumarcoderelm/use": "^1.0.1",
     "chalk": "^2.1.0",
     "faker": "^4.1.0",
     "lodash": "^4.17.11",
     "yeoman-generator": "^2.0.1",
     "yosay": "^2.0.1"
   },
-  "jest": {
-    "testEnvironment": "node"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ]
-  },
-  "eslintConfig": {
-    "extends": [
-      "xo",
-      "prettier"
-    ],
-    "env": {
-      "jest": true,
-      "node": true
-    },
-    "rules": {
-      "prettier/prettier": "error"
-    },
-    "plugins": [
-      "prettier"
-    ]
-  },
-  "scripts": {
-    "pretest": "eslint .",
-    "test": "jest"
-  },
-  "repository": "https://github.com/Arunkumarcs/coderelm-experiment.git",
+  "autoload": {},
+  "repository": "https://github.com/Arunkumarcs/generator-coderelm-express-mvc.git",
   "license": "MIT"
 }

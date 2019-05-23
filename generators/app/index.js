@@ -1,5 +1,6 @@
 "use strict";
-const Generator = require("yeoman-generator");
+require('@arunkumarcoderelm/use');
+const Generator = use("yeoman-generator");
 
 module.exports = class extends Generator {
   /**
