@@ -1,6 +1,6 @@
 {
   "name": "@arunkumarcoderelm/generator-coderelm-express-mvc",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "This generator creates copy of Express MVC setup from Coderelm team. Supercharged Express Generator with Express MVC structure integrated with Sequalize ORM and Nunjucks template engine from Coderelm.Jest and Puppeteer test framework integrated.",
   "homepage": "https://github.com/Arunkumarcs/generator-coderelm-express-mvc",
   "author": {
@@ -23,7 +23,8 @@
     "es6",
     "jest",
     "puppeteer",
-    "scaffolding"
+    "scaffolding",
+    "graphql"
   ],
   "devDependencies": {
     "eslint": "^5.9.0",
