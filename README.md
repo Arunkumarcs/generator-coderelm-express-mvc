@@ -26,7 +26,7 @@ yo @arunkumarcoderelm/coderelm-express-mvc
 
 ## Getting Started
 
-Changes database connection in `db/config/config.json` this is your sequalize connection config file.
+Change database connection in `db/config/config.json` this is your sequalize connection config file.
 
 Start the project using below command.
 
@@ -34,7 +34,7 @@ Start the project using below command.
 npm start  or yarn start
 ```
 
-We have integrated GraphQl as default feature so once the server start you can view the GraphQl plaground in below
+We have integrated GraphQl as default feature so once the server start you can view the GraphQl playground in below
 url
 
 ```bash
